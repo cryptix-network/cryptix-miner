@@ -75,9 +75,18 @@ OPTIONS:
 
 To start mining, you just need to run the following:
 
+This will run the miner on all the available GPU devcies:
+
 `./cryptix-miner --mining-address cryptix:XXXXX`
 
-This will run the miner on all the available GPU devcies.
+This will run the miner on all the available CPU (2 Threads) and GPU devcies.
+
+`./cryptix-miner --mining-address cryptix:XXXXX --threads 2`
+
+This will run the miner on the CPU (4 Threads) without CUDA GPU.
+
+`./cryptix-miner --mining-address cryptix:XXXXX --threads 4 --cuda-disable`
+
 
 # Devfund
 
@@ -94,3 +103,7 @@ Due to community decision, the minimum amount in the precompiled binaries is 1%*
 **Elichai**: `kaspa:qzvqtx5gkvl3tc54up6r8pk5mhuft9rtr0lvn624w9mtv4eqm9rvc9zfdmmpu`
 
 **HauntedCook**: `kaspa:qz4jdyu04hv4hpyy00pl6trzw4gllnhnwy62xattejv2vaj5r0p5quvns058f`
+
+## Kudos
+
+- https://github.com/elichai/kaspa-miner
