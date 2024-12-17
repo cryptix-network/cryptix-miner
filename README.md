@@ -1,5 +1,5 @@
 # Cryptix-miner CPU & GPU
-
+![cryptix-miner](https://github.com/user-attachments/assets/912d2770-8b90-4e43-bdc2-101799c47e3f)
 ## Installation
 ### From Git Sources
 
@@ -27,7 +27,7 @@ To remove a plugin, you simply remove the corresponding `dll`/`so` for the direc
 
 # Usage
 To start mining, you need to run [cryptixd](https://github.com/cryptix-network/rusty-cryptix) and have an address to send the rewards to.
-![cryptix-miner](https://github.com/user-attachments/assets/912d2770-8b90-4e43-bdc2-101799c47e3f)
+
 
 Help:
 ```
