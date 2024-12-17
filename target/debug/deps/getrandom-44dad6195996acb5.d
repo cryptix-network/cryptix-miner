@@ -1,0 +1,11 @@
+F:\Github\cryptix-miner\target\debug\deps\libgetrandom-44dad6195996acb5.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\util.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error_impls.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\windows.rs
+
+F:\Github\cryptix-miner\target\debug\deps\libgetrandom-44dad6195996acb5.rlib: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\util.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error_impls.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\windows.rs
+
+F:\Github\cryptix-miner\target\debug\deps\getrandom-44dad6195996acb5.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\util.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error_impls.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\windows.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\util.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\error_impls.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.3\src\windows.rs:

@@ -1,0 +1,5 @@
+F:\Github\cryptix-miner\target\debug\deps\libwant-1812d311454d7655.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\want-0.3.0\src\lib.rs
+
+F:\Github\cryptix-miner\target\debug\deps\want-1812d311454d7655.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\want-0.3.0\src\lib.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\want-0.3.0\src\lib.rs:

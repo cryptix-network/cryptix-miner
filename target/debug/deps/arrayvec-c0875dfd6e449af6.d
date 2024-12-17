@@ -1,0 +1,11 @@
+F:\Github\cryptix-miner\target\debug\deps\libarrayvec-c0875dfd6e449af6.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec_impl.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\array_string.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\char.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\errors.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\utils.rs
+
+F:\Github\cryptix-miner\target\debug\deps\arrayvec-c0875dfd6e449af6.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec_impl.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\array_string.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\char.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\errors.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\utils.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec_impl.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\arrayvec.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\array_string.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\char.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\errors.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\arrayvec-0.7.2\src\utils.rs:

@@ -1,0 +1,11 @@
+F:\Github\cryptix-miner\target\debug\deps\libblake2b_simd-791d2ab7ad649509.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\avx2.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\portable.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\sse41.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\blake2bp.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\guts.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\many.rs
+
+F:\Github\cryptix-miner\target\debug\deps\blake2b_simd-791d2ab7ad649509.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\avx2.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\portable.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\sse41.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\blake2bp.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\guts.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\many.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\avx2.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\portable.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\sse41.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\blake2bp.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\guts.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\blake2b_simd-1.0.0\src\many.rs:

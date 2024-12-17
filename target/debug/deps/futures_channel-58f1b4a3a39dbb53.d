@@ -1,0 +1,10 @@
+F:\Github\cryptix-miner\target\debug\deps\libfutures_channel-58f1b4a3a39dbb53.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lock.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\mod.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\queue.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\sink_impl.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\oneshot.rs
+
+F:\Github\cryptix-miner\target\debug\deps\futures_channel-58f1b4a3a39dbb53.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lock.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\mod.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\queue.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\sink_impl.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\oneshot.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\lock.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\mod.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\queue.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\mpsc\sink_impl.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-channel-0.3.21\src\oneshot.rs:

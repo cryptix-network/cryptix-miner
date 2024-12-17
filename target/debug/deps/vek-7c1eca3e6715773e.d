@@ -1,0 +1,13 @@
+F:\Github\cryptix-miner\target\debug\deps\libvek-7c1eca3e6715773e.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\ops.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\vec.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\mat.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\quaternion.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transition.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transform.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\bezier.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\geom.rs
+
+F:\Github\cryptix-miner\target\debug\deps\vek-7c1eca3e6715773e.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\ops.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\vec.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\mat.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\quaternion.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transition.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transform.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\bezier.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\geom.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\ops.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\vec.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\mat.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\quaternion.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transition.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\transform.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\bezier.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vek-0.15.7\src\geom.rs:

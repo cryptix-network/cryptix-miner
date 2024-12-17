@@ -1,0 +1,11 @@
+F:\Github\cryptix-miner\target\debug\deps\libfutures_task-2ce632b288bf2d06.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\spawn.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\arc_wake.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker_ref.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\future_obj.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\noop_waker.rs
+
+F:\Github\cryptix-miner\target\debug\deps\futures_task-2ce632b288bf2d06.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\spawn.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\arc_wake.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker_ref.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\future_obj.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\noop_waker.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\spawn.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\arc_wake.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\waker_ref.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\future_obj.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-task-0.3.21\src\noop_waker.rs:

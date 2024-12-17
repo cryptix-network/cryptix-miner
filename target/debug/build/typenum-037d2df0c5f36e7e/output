@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=F:\Github\cryptix-miner\target\debug\build\typenum-037d2df0c5f36e7e\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=F:\Github\cryptix-miner\target\debug\build\typenum-037d2df0c5f36e7e\out\op.rs

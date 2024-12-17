@@ -1,0 +1,10 @@
+F:\Github\cryptix-miner\target\debug\deps\libtextwrap-48d4a1acdf11c714.rmeta: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\indentation.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_separators.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_splitters.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\wrap_algorithms.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\core.rs
+
+F:\Github\cryptix-miner\target\debug\deps\textwrap-48d4a1acdf11c714.d: C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\lib.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\indentation.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_separators.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_splitters.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\wrap_algorithms.rs C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\core.rs
+
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\lib.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\indentation.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_separators.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\word_splitters.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\wrap_algorithms.rs:
+C:\Users\Hotfix\.cargo\registry\src\index.crates.io-6f17d22bba15001f\textwrap-0.14.2\src\core.rs:
