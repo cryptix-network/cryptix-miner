@@ -80,9 +80,11 @@ This will run the miner on all the available GPU devcies:
 `./cryptix-miner --mining-address cryptix:XXXXX`
 
 This will run the miner on all the available CPU (2 Threads) and GPU devcies.
+
 `./cryptix-miner --mining-address cryptix:XXXXX`--threads 2
 
 This will run the miner on the CPU (4 Threads) without CUDA GPU.
+
 `./cryptix-miner --mining-address cryptix:XXXXX`--threads 4 --cuda-disable 
 
 
