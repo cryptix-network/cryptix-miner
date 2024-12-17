@@ -1,14 +1,6 @@
 # Cryptix-miner CPU & GPU
 
 ## Installation
-### From Sources
-Installing via `cargo install` is not supported for the latest version.
-
-The regular version is still available at
-```sh
-cargo install cryptix-miner
-```
-
 ### From Git Sources
 
 If you are looking to build from the repository (for debug / extension), note that the plugins are additional
