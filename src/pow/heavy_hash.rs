@@ -90,10 +90,11 @@ impl Matrix {
     fn memory_intensive_mix(seed: u32) -> u32 {
         let mut acc = seed;
         for i in 0..32 {
-            acc = (acc * 16625) ^ i;
+            acc = acc.wrapping_mul(16625) ^ i;
         }
         acc
     }
+
     
     fn recursive_fibonacci_modulated(mut x: u32, depth: u8) -> u32 {
         let mut a = 1u32;
