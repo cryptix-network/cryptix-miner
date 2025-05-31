@@ -10,7 +10,7 @@ cat > h-manifest.conf << EOF
 ### cryptix-miner
 ### https://github.com/cryptix-network/cryptix-miner/releases
 ###
-### Hive integration: Merlin
+### 
 ###
 ####################################################################################
 
