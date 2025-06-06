@@ -62,7 +62,7 @@
 	--arg ths "$total_hashrate_khs" \
 	--argjson shares_acc "$shares_accepted" \
 	--argjson shares_rej "$shares_rejected" \
-	'{hs: $hs, hs_units: "mhs", algo: "cryptixhash", ver: $ver, uptime: ($uptime|tonumber), bus_numbers: $bus_numbers, temp: $temp, fan: $fan, ths: ($ths|tonumber), ar: [$shares_acc, $shares_rej]}'
+	'{hs: $hs, hs_units: "mhs", algo: "cryptix_ox8", ver: $ver, uptime: ($uptime|tonumber), bus_numbers: $bus_numbers, temp: $temp, fan: $fan, ths: ($ths|tonumber), ar: [$shares_acc, $shares_rej]}'
     )
     khs=$total_hashrate_khs
 else
