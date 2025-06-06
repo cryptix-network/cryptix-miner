@@ -1,35 +1,9 @@
-#!/usr/bin/env bash
-
-. /hive/miners/custom/cryptix_miner_hive_sheet_v029/h-manifest.conf
-
-stats_raw=$(grep -w "hashrate" "$CUSTOM_LOG_BASENAME.log" | tail -n 1)
-
-maxDelay=120
-time_now=$(date +%s)
-
-datetime_rep=$(echo "$stats_raw" | awk '{print $1}' | tr -d '[]')
-time_rep=$(date -d "$datetime_rep" +%s 2>/dev/null || echo 0)
-diffTime=$(( time_now - time_rep ))
-diffTime=${diffTime#-}  
-
-if [ "$diffTime" -lt "$maxDelay" ]; then
-    total_hashrate=$(echo "$stats_raw" | awk '{print $7}' | sed 's/[^0-9.]//g')
-    if [[ $stats_raw == *"Ghash"* ]]; then
-        total_hashrate=$(echo "$total_hashrate * 1000" | bc)
-    fi
-
-    gpu_stats=$(<"$GPU_STATS_JSON")
     readarray -t gpu_stats < <(jq --slurp -r -c '.[] | .busids, .brand, .temp, .fan | join(" ")' "$GPU_STATS_JSON" 2>/dev/null)
     busids=(${gpu_stats[0]})
     brands=(${gpu_stats[1]})
     temps=(${gpu_stats[2]})
     fans=(${gpu_stats[3]})
     gpu_count=${#busids[@]}
-
-    hash_arr=()
-    busid_arr=()
-    fan_arr=()
-    temp_arr=()
 
     if [ $(gpu-detect NVIDIA) -gt 0 ]; then
         BRAND_MINER="nvidia"
@@ -39,16 +13,31 @@ if [ "$diffTime" -lt "$maxDelay" ]; then
         BRAND_MINER=""
     fi
 
+    filtered_indices=()
     for (( i=0; i < gpu_count; i++ )); do
-        [[ "${brands[i]}" != $BRAND_MINER ]] && continue
-        if [[ "${busids[i]}" =~ ^([A-Fa-f0-9]+): ]]; then
-            busid_arr+=($((16#${BASH_REMATCH[1]})))
+        if [[ "${brands[i]}" == "$BRAND_MINER" ]]; then
+            filtered_indices+=($i)
+        fi
+    done
+
+    hash_arr=()
+    busid_arr=()
+    fan_arr=()
+    temp_arr=()
+
+
+    for (( miner_idx=0; miner_idx < ${#filtered_indices[@]}; miner_idx++ )); do
+	i=${filtered_indices[$miner_idx]}
+	short_busid="${busids[i]}"
+        if [[ "$short_busid" =~ ^([A-Fa-f0-9]+): ]]; then
+            decimal_busid=($((16#${BASH_REMATCH[1]})))
         else
-            busid_arr+=(0)
+            decimal_busid=0
         fi
         temp_arr+=(${temps[i]})
         fan_arr+=(${fans[i]})
-        gpu_raw=$(grep -w "Device #$i" "$CUSTOM_LOG_BASENAME.log" | tail -n 1)
+	busid_arr+=($decimal_busid)
+        gpu_raw=$(grep -w "Device #$miner_idx" "$CUSTOM_LOG_BASENAME.log" | tail -n 1)
         hashrate=$(echo "$gpu_raw" | awk '{print $(NF-1)}' | sed 's/[^0-9.]//g')
         if [[ $gpu_raw == *"Ghash"* ]]; then
             hashrate=$(echo "$hashrate * 1000" | bc)
@@ -70,9 +59,12 @@ if [ "$diffTime" -lt "$maxDelay" ]; then
         --argjson fan "$fan_json" \
         --argjson temp "$temp_json" \
         --arg uptime "$uptime" \
-        --arg ths "$total_hashrate" \
-       '{hs: $hs, hs_units: "khs", algo: "cryptix_ox8", ver: $ver, uptime: ($uptime|tonumber), bus_numbers: $bus_numbers, temp: $temp, fan: $fan}'
-    khs=$total_hashrate
+	--arg ths "$total_hashrate_khs" \
+	--argjson shares_acc "$shares_accepted" \
+	--argjson shares_rej "$shares_rejected" \
+	'{hs: $hs, hs_units: "mhs", algo: "cryptixhash", ver: $ver, uptime: ($uptime|tonumber), bus_numbers: $bus_numbers, temp: $temp, fan: $fan, ths: ($ths|tonumber), ar: [$shares_acc, $shares_rej]}'
+    )
+    khs=$total_hashrate_khs
 else
     khs=0
     stats="null"
