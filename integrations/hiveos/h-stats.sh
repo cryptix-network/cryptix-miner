@@ -1,3 +1,28 @@
+#!/usr/bin/env bash
+
+. /hive/miners/custom/cryptix_miner_hive_sheet_v029/h-manifest.conf
+
+stats_raw=$(grep -w "hashrate" "$CUSTOM_LOG_BASENAME.log" | tail -n 1)
+shares_accepted=$(grep -oP 'Accepted: \K[0-9]+' "$CUSTOM_LOG_BASENAME.log" | tail -n1)
+shares_rejected=0
+
+maxDelay=120
+time_now=$(date +%s)
+
+datetime_rep=$(echo "$stats_raw" | awk '{print $1}' | tr -d '[]')
+time_rep=$(date -d "$datetime_rep" +%s 2>/dev/null || echo 0)
+diffTime=$(( time_now - time_rep ))
+diffTime=${diffTime#-}  
+
+if [ "$diffTime" -lt "$maxDelay" ]; then
+    total_hashrate=$(echo "$stats_raw" | awk '{print $7}' | sed 's/[^0-9.]//g')
+    total_hashrate_khs=$(echo "$total_hashrate * 1000" | bc)
+    if [[ $stats_raw == *"Ghash"* ]]; then
+        total_hashrate=$(echo "$total_hashrate * 1000" | bc)
+	total_hashrate_khs=$(echo "$total_hashrate_khs * 1000" | bc)
+    fi
+
+    gpu_stats=$(<"$GPU_STATS_JSON")
     readarray -t gpu_stats < <(jq --slurp -r -c '.[] | .busids, .brand, .temp, .fan | join(" ")' "$GPU_STATS_JSON" 2>/dev/null)
     busids=(${gpu_stats[0]})
     brands=(${gpu_stats[1]})
